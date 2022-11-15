@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Plasma donor Application</title>  
+  <link rel="icon" href="static\img\logo.png" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="static\css\Register_1.css">
+</head>  
+
+<body>  
+  <div class="container">
+    <img class="img-responsive" src="static\img\Background.png" height="630px" width="1100px">
+    <div class="text1"><a href="{{ url_for('L_page') }}">Login</a></span></div>
+    <form action="http://localhost:5000/register" method="post">
+      <div class="form__group">
+        <input type="input" class="form__field" placeholder="Name" name="username" id='name' required />
+        <label for="name" class="form__label">Name</label><br>
+      </div>
+      <div class="form__group">
+        <input type="email" class="form__field" placeholder="Email" name="email" id='email' required />
+        <label for="Email" class="form__label">Email</label><br>
+      </div>
+      <div class="form__group">
+        <input type="password" class="form__field" placeholder="password" name="password" id='password' required />
+        <label for="password" class="form__label">Password</label><br>
+      <input type="submit" value="Next">
+    </form>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>  
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>  
+</body>  
+</html>  

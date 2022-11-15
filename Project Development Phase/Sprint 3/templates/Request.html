@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Plasma donor Application</title>  
+  <link rel="icon" href="static\img\logo.png" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="static\css\Request.css">
+</head>  
+
+<body>  
+  <div class="container">
+    <img class="img-responsive" src="static\img\Background4.png" height="630px" width="1100px">
+    <div class="text1">Create Request</div>
+    <form action="http://localhost:5000/request_page" method="post">
+        <div class="form__group">
+            <label for="bloodtype" id="bloodtype">Blood Type</label><br>
+            <div class="Radio_buttons">
+                <div class="buttons"><input type="radio" name="blood_type" value="A+"> A+ </div>
+
+                <div class="buttons"> <input type="radio" name="blood_type" value="A-"> A- </div>
+                
+                <div class="buttons"><input type="radio" name="blood_type" value="B+"> B+ </div>
+
+                <div class="buttons"> <input type="radio" name="blood_type" value="B-"> B- </div>
+
+                <div class="buttons"><input type="radio" name="blood_type" value="O+"> O+ </div>
+
+                <div class="buttons"> <input type="radio" name="blood_type" value="O-"> O- </div>
+                
+                <div class="buttons"> <input type="radio" name="blood_type" value="AB+"> AB+ </div>
+
+                <div class="buttons"> <input type="radio" name="blood_type" value="AB-"> AB- </div>
+                
+            </div>
+        </div>
+        
+      <input type="submit" value="Register">
+    </form>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>  
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>  
+</body>  
+</html>  

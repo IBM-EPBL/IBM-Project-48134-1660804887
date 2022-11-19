@@ -1,0 +1,132 @@
+.container{
+    position: relative;
+
+}
+.text1{
+    position: absolute;
+    font-size: 30px;
+    font-weight: 700;
+    font-family:Gill Sans,Gill Sans MT,Calibri,sans-serif;
+    left:20px;
+    top: 10px;
+    color: #ffffff;
+}
+.text2{
+    position: absolute;
+    font-size: 40px;
+    font-weight: 700;
+    font-family:Gill Sans,Gill Sans MT,Calibri,sans-serif;
+    right:300px;
+    top: 180px;
+    color: #e76e1d;
+}
+.count1{
+    margin-left:100px;
+}
+.count2{
+    margin-left:130px;
+}
+.text3{
+    position: absolute;
+    font-size: 40px;
+    font-weight: 700;
+    font-family:Gill Sans,Gill Sans MT,Calibri,sans-serif;
+    right: 150px;
+    bottom: 200px;
+    color: #e76e1d;
+}
+form{
+    float: left;
+    position: absolute;
+    left:8% ;
+    top: 30%;
+    width: 23%;
+}
+input[type = submit] {
+
+    color: #ffffff;
+    font-family:Gill Sans,Gill Sans MT,Calibri,sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    float: right;
+    margin-right: -20%;
+    margin-top: 10%;
+    background: transparent;
+    border: none;   
+}
+.form__group {
+    position: relative;
+    padding: 45px 0 0;
+}
+
+.nextbutton{
+      background-color: #4a7ff1;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+    }
+.form__field {
+    font-family: inherit;
+    width: 120%;
+    border: 0;
+    border-bottom: 2px solid #000000;;
+    outline: 0;
+    font-size: 1.3rem;
+    color: #000000;
+    padding: 30px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+}
+.form__field::placeholder {
+    color: transparent;
+}
+.form__field:placeholder-shown ~ .form__label {
+    font-size: 2.5rem;
+    cursor: text;
+    top: 0px;
+
+}
+.form__label {
+    position: absolute;
+    top: 0;
+    font-family:Gill Sans,Gill Sans MT,Calibri,sans-serif;
+    display: block;
+    transition: 0.2s;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #000000;
+    margin-top: 35px;
+    
+}
+.form__field:focus {
+    padding-bottom: 7px;
+    font-weight: 700;
+    border-width: 3px;
+    border-image-slice: 1;
+}
+.form__field:focus ~ .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 2rem;
+    color: #000000;
+    font-weight: 700;
+}
+.form__field:required, .form__field:invalid {
+    box-shadow: none;
+}
+#buttons{
+    font-size: 20px;
+    font-family:Gill Sans,Gill Sans MT,Calibri,sans-serif;
+    padding-top: 50px;
+    font-weight: 700;
+    color: #000000;
+}
+.row{
+    width: 200%;
+}

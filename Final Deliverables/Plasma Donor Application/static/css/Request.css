@@ -1,0 +1,62 @@
+.container{
+    position: relative;
+
+}
+.text1{
+    position: absolute;
+    font-size: 50px;
+    font-weight: 700;
+    font-family:Gill Sans,Gill Sans MT,Calibri,sans-serif;
+    right: 170px;
+    top: 120px;
+    color: #cf1886;
+}
+form{
+    position: absolute;
+    left: 20%;
+    top: 50px;
+    width: 23%;
+}
+input[type = submit] {
+
+    color: #ffffff;
+    font-family:Gill Sans,Gill Sans MT,Calibri,sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    float: right;
+    margin-right: -160%;
+    margin-top: 7%;
+    background: transparent;
+    border: none;   
+}
+
+input[type = radio]{
+    accent-color: #E13a9e;
+    width: 20%;
+    height: 0.8em;
+}
+
+#bloodtype{
+    position: absolute;
+    top: 0;
+    display: block;
+    font-family:Gill Sans,Gill Sans MT,Calibri,sans-serif;
+    font-size: 4rem;
+    color: #db1c8f;
+    margin-top: 10px;
+}
+.Radio_buttons{
+    padding-top: 15%;
+    padding-left: 10%;
+}
+.buttons{
+    font-size: 2.3rem;
+    padding-top: 10%;
+    font-weight: 700;
+    color: #c8ff00;
+}
+
+.form__group {
+    position: relative;
+    padding: 30px 0 0;
+}
